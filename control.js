@@ -2,7 +2,7 @@ var _num = 0;
 var _Calculation=false;
 var _sum = 0;
 var _OprandSelected=false;
-document.write("<h1>سلام عزیزم</h1>");
+document.write("<h1>سلام عزیزم خوبی</h1>");
 
 
 const Opration={
