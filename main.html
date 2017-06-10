@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html >
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style.css" />
+        <script src="control.js"> </script>
+    </head>
+    <body>
+        <h1> salam </h1>
+        <h2> hello </h2>
+        <h1> hello world </h1>
+        <div id="main">
+
+            <div class="screen" id="output" onclick="Hello()" ></div>
+            <div class="button input" onclick="AddToScreen(1)">1</div>
+            <div class="button input" onclick="AddToScreen(2)">2</div>
+            <div class="button input" onclick="AddToScreen(3)">3</div>
+            <div class="button oper Plus " onclick="CalculateAmount('Plus')">+</div>
+            <div class="button input" onclick="AddToScreen(4)">4</div>
+            <div class="button input" onclick="AddToScreen(5)">5</div>
+            <div class="button input" onclick="AddToScreen(6)">6</div>
+            <div class="button oper Minus" onclick="CalculateAmount('Minus')">-</div>
+            <div class="button input" onclick="AddToScreen(7)">7</div>
+            <div class="button input" onclick="AddToScreen(8)">8</div>
+            <div class="button input" onclick="AddToScreen(9)">9</div>
+            <div class="button oper Multipl " onclick="CalculateAmount('Multipl')">*</div>
+            <div class="button clear" onclick="ClearScreen()">C</div>
+            <div class="button input" onclick="AddToScreen(0)">0</div>
+            <div class="button input" onclick="AddToScreen()">.</div>
+            <div class="button oper Divide" onclick="CalculateAmount('Divide')">/</div>
+            <div class="button equation" onclick="CalculateAmount('Equal')">=</div>
+        </div>
+    </body>
+</html>
